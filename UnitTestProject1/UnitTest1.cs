@@ -73,7 +73,7 @@ namespace UnitTestProject1
         {
             double[] arr = { 2.0, 4.0, 6.0, 8.0 };
             double b = 1.0;
-            double d = 2.0;
+            double d = 3.0;
             double result = Program.SumInRange(arr, b, d);
             Assert.Equal(2.0, result);
         }
